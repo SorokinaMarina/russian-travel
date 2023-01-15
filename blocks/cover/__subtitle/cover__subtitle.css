@@ -9,3 +9,9 @@
     left: 50%;
     transform: translateX(-50%);
 }
+
+@media screen and (max-width: 1280px) {
+    .cover__subtitle {
+        top: 379px;
+    }
+}

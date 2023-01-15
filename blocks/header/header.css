@@ -3,4 +3,11 @@
     display: flex;
     justify-content: space-between;
     margin: auto;
+    padding: 2.18% 0 4.37%;
+}
+
+@media screen and (max-width: 1280px) {
+    .header {
+        padding: 2.73% 0 4.69%;
+    }
 }

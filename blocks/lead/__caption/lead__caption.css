@@ -6,3 +6,9 @@
     margin: 0;
     padding-bottom: 9.3%;
 }
+
+@media screen and (max-width: 1280px) {
+    .lead__caption {
+        padding-bottom: 9.9%;
+    }
+}
