@@ -1,7 +1,7 @@
 .cover__background {
     width: 100%;
     height: 59.9%;
-    padding-bottom: 7.7%;
+    padding-bottom: 92px;
     opacity: 70%;
 }
 
@@ -9,8 +9,8 @@
     opacity: 20%;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
     .cover__background {
-        padding-bottom: 8.98%;
+        padding-bottom: 88px;
     }
 }

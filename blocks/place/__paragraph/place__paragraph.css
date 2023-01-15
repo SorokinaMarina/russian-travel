@@ -5,5 +5,11 @@
 }
 
 .place__paragraph:first-child {
-    padding-bottom: 5.37%;
+    padding-bottom: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraph:first-child {
+        padding-bottom: 25px;
+    }
 }

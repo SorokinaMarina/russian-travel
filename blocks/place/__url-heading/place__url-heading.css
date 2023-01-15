@@ -3,6 +3,12 @@
     padding: 0 0 12px;
     color: #aaa;
     font-size: 12px;
-    line-height: 1;
+    line-height: 1.7;
     letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__url-heading {
+        line-height: 1;
+    }
 }

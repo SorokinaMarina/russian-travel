@@ -3,12 +3,17 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 1.87%;
+    padding-bottom: 24px;
 }
 
 @media screen and (max-width: 1280px) {
     .footer {
         width: 90.63%;
-        padding-bottom: 2.34%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        width: 93.75%;
     }
 }

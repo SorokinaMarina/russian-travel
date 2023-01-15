@@ -3,6 +3,12 @@
     list-style-type: none;
     font-size: 12px;
     line-height: 1.5;
-    padding: 0 0 13%;
+    padding: 0 0 92px;
     margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro__list {
+        padding: 0 0 88px;
+    }
 }
