@@ -4,3 +4,10 @@
     justify-content: end;
     grid-area: website;
 }
+
+@media screen and (max-width: 768px) {
+    .place__url-heading {
+        min-width: 288px;
+        padding-left: 5%;
+    }
+}

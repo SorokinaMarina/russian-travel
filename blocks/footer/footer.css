@@ -17,3 +17,12 @@
         width: 93.75%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        row-gap: 48px;
+        width: 90%;
+        margin: auto;
+    }
+}

@@ -3,21 +3,30 @@
     line-height: 1.2;
     margin: 0;
     text-align: center;
-    width: 360px;
+    max-width: 360px;
     position: absolute;
-    top: 429px;
+    top: 430px;
     left: 50%;
     transform: translateX(-50%);
 }
 
 @media screen and (max-width: 1280px) {
     .cover__subtitle {
-        top: 379px;
+        top: 383px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .cover__subtitle {
-        top: 299px;
+        top: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 1.14;
+        top: 119px;
+        min-width: 288px;
     }
 }
