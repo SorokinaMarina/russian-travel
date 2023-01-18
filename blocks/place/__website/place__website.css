@@ -5,7 +5,7 @@
     grid-area: website;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .place__url-heading {
         min-width: 288px;
         padding-left: 5%;

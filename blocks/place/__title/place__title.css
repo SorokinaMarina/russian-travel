@@ -4,20 +4,26 @@
     line-height: 1.05;
     margin: 0;
     grid-area: title;
-    max-width: 330px;
+    max-width: 460px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .place__title {
-        font-size: 42px;
-        line-height: 1.09;
+        max-width: 440px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 1.09;
+        max-width: 330px;
+    }
+}
+
+@media screen and (max-width: 767px) {
     .place__title {
         font-size: 32px;
-        line-height: 1.09;
         min-width: 288px;
         padding-left: 5%;
     }
