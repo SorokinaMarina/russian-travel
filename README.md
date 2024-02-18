@@ -26,5 +26,5 @@
 
 #### Ссылка на проект
 
-* [Ссылка на проект GitHab](https://bambyary.github.io/russian-travel/)
+* [Ссылка на проект gh-pages](https://sorokinamarina.github.io/russian-travel/)
 
